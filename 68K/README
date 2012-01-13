@@ -1,0 +1,1 @@
+This is a board I designed for a digital systems class. The whole point was that the 68K is not a microcotroller, but a processor, so we find out how the RAM, ROM, and other peripherals connect to the processor. In addition, we had to build the board using wire-wrapping, write the decoder in VHDL, and program the 68K.
