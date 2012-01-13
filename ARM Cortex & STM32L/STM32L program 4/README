@@ -1,0 +1,19 @@
+The original directions were:
+
+For this assignment, you will need to create a program using the C programming language that implements an interrupt handler. The program will also include a Super Loop in which you will create a rudimentary state machine, in which the system state changes each time the user push button (B1) is pressed. The functionality should work as follows:
+- At program start, both user LEDs (LD3 – green and LD4 – blue) should be off.
+- 1st Press of user button (B1) – LD3 is turned on and LD4 remains turned off.
+- 2nd Press of user button (B1) – LD3 is turned off and LD4 is turned on.
+- 3rd Press of user button (B1) – LD3 and LD4 both start blinking simultaneously with a
+blink cycle of roughly 2 seconds (i.e. 1 second in the on state and 1 second in the off
+state).
+- 4th Press of user button (B1) – the program returns to the starting state with both LD3
+and LD4 turned off.
+- Subsequent presses of B1 should then repeat the states listed above.
+You will use the program files included in EECE337_Program4.zip as the starting point for the
+code you create. As with the last assignment you will need to unzip this file into your working
+directory. It contains an IAR EWARM project that includes among other files, main.c and
+STM32L152RBT6.h. You will need to put your Super Loop and State Machine related code in
+main.c. You will also need to put your button press detection code in the EXTI0_IRQHandler
+ISR inside main.c. STM32L152RBT6.h contains the memory mappings you will need for your
+I/O code.

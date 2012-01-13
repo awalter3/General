@@ -1,0 +1,15 @@
+The original directions were:
+
+For this assignment, you will need to create an ARM assembly language code routine that implements an algorithm to search through an array and find BOTH the minimum and maximum
+values. You should find both of these values on a SINGLE pass through the array. In other words, don’t use separate loops to search for the minimum and maximum values. You will then return both of the values to main.c which will display them, one at a time, on the LCD. You will use the program files included in EECE337_Program2.zip. As with the last assignment you will need to unzip this file into your working directory. It contains an IAR EWARM project that includes among other files, main.c and min_max.s. For this assignment, you do NOT need to modify main.c. You will be adding your code to min_max.s. The only reason you should need to change main.c is if you want to modify the values in the input array through which you
+will be searching.
+The signature for the min_max function is:
+min_max(int X[], unsigned int size, int *min, int *max)
+- X is the array
+- size is the length of the array
+- min is a pointer to an integer that will store the min value
+- max is a pointer to an integer that will store the max value
+
+The links to this function are already set up in the project you will download.
+
+A complete solution will display the results on the LCD of your board.

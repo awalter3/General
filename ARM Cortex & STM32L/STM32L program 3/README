@@ -1,0 +1,14 @@
+The orginal directions were:
+
+For this assignment, you will need to complete several ARM assembly language code routines that blink the user LEDs (LD3 and LD4) on your ST board. Each “blink” cycle consists of two
+states, On and Off, for each LED. For this program, LD3 should have a blink cycle of roughly 2 seconds, 1 second in the On state and 1 second in the Off state. LD3 (the green LED) will
+blink at twice the frequency of LD4 (the blue LED). In other words, LD4 should have a blink cycle of roughly 4 seconds, 2 seconds in the On state and 2 seconds in the Off state. If you set this up correctly, LD4 should complete one blink cycle for each two blink cycles completed by
+LD3. You will use the program files included in EECE337_Program3.zip. As with the last assignment you will need to unzip this file into your working directory. It contains an IAR EWARM project that includes among other files, main.c and blinky.s. For this assignment, you do NOT need to modify main.c. You will be adding your code to blinky.s. The file main.c is solely used to launch the application. ALL OF YOUR CODE SHOULD BE LOCATED IN blinky.s. The code for blinky.s includes declarations and placeholder code for 7 subroutines:
+- main_assembly
+- config_gpio
+- led_on_green
+- led_on_blue
+- led_off_green
+- led_off_blue
+- delay
+The links to these subroutines are already set up in the project you will download. You will need to fill in the code for each subroutine in order to achieve the functionality outlined above.
