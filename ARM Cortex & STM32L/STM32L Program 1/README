@@ -1,0 +1,6 @@
+The original directions were:
+
+For this assignment we will be creating ARM assembly language code that implements a factorial function. Your code will need to compute the factorial for a given integer, up to
+10. A factorial is simply the product of all positive integers less than or equal to an integer n. It is usually denoted by n!.
+I will give you a sample main() and a sample factorial() function written in C.What you need to do is create a new version of the factorial() function using the assembly
+techniques I have shown you in class. In its simplest terms, the main() function shouldn’t change at all. I recommend that you translate the factorial() function as shown in C, to assembly language, using the assembly language and loop constructs I showed in class. A complete solution will display the result on the LCD of your board.
